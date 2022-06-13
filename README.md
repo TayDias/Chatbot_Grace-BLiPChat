@@ -49,12 +49,12 @@ Criar modelo e importar entidades e intenções contidas na pasta /watson
 
 Habilitar o contexto de roteador e o traking em todos os subbots nas configurações gerais:
 
-<img width="1001" alt="Contexto" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configcontextobots.PNG">
+<img width="400" alt="Contexto" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configcontextobots.PNG">
 
 
 Ainda nas configurações gerais, incluir as variáveis de configuração de conexão com o Watson:
 
-urlWatson: valorDaURL
+urlWatson: valorDaURL,
 authorizationWatson: valorDaChave
 
 
