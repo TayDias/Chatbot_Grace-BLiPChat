@@ -1,0 +1,113 @@
+emocao-indicadora,desprezo,me desprezaram,me desprezam,desprezado,desprezada
+emocao-indicadora,estresse,estressado,estressada
+emocao-indicadora,ficando louco,beira da loucura,ficando louca,enlouquecendo
+emocao-indicadora,desconforto,desconfortavel
+emocao-indicadora,decepção,decepcionado,decepcionada
+emocao-indicadora,chorar,chorei,chorando,choro
+emocao-indicadora,inutil,nao faco falta,nao faço falta
+emocao-indicadora,insegura,inseguro,insegurança
+emocao-indicadora,triste,tristeza
+emocao-indicadora,surto,surtando,surtada,surtado,surtei
+emocao-indicadora,sem rumo,nao sei para onde ir
+emocao-indicadora,pessimo,pessima
+emocao-indicadora,para baixo,pra baixo
+emocao-indicadora,odiado,odiada,me odeia
+emocao-indicadora,nao me sinto bem,nao me sinto muito bem,nao estou bem,nao estou muito bem,nao estou me sentindo bem,nao estou me sentindo muito bem
+emocao-indicadora,nada da certo,nao dessem certo
+emocao-indicadora,medo,amedrontada,amedrontado
+emocao-indicadora,magoado,magoada
+emocao-indicadora,vergonha,envergonhado,envergonhada
+emocao-indicadora,horrivel
+emocao-indicadora,chateado,chateada
+emocao-indicadora,cabisbaixo,cabisbaixa
+emocao-indicadora,ansioso,ansiosa
+emocao-indicadora,angustia,angustiada,angustiado
+emocao-indicadora,condenado,condenada
+emocao-indicadora,incompreendido,incompreendida,não me compreende,não sou compreendida,não sou compreendido
+emocao-indicadora,preso,presa,aprisonado,aprisionada
+emocao-indicadora,confusa,confuso
+emocao-indicadora,miserável,miséria
+emocao-indicadora,incapaz,incapacitada,incapacitado
+emocao-indicadora,nada faz sentido,nao vejo sentido,sem sentido,não fazem mais sentido,não tem mais sentido
+emocao-indicadora,assustado,assustada
+emocao-indicadora,não sei mais o que fazer,não sei o que fazer,estou sem ação,estou paralizada,estou paralizado
+emocao-indicadora,frustração,frustrada,frustrado
+emocao-indicadora,desespero,desesperado,desesperada
+emocao-negativa,não estou me sentido bem
+emocao-negativa,mal
+emocao-negativa,triste,tristeza
+emocao-negativa,desontente
+emocao-negativa,infeliz
+emocao-negativa,ruim
+emocao-negativa,não estou legal
+emocao-negativa,nada ok
+emocao-negativa,tudo errado
+emocao-negativa,mau
+emocao-negativa,não me sinto bem,não muito bem,nada bem
+emocao-positiva,beleza
+emocao-positiva,bem
+emocao-positiva,bom
+emocao-positiva,contente
+emocao-positiva,de boa
+emocao-positiva,feliz
+emocao-positiva,legal
+emocao-positiva,na paz
+emocao-positiva,tudo certo,td certo
+emocao-positiva,tudo ok,estou ok
+emocao-positiva,alegre
+emocao-positiva,tranquilo,tranquila
+onde-vdomestica,casa,apartamento,apê
+onde-vdomestica,quarto
+o-que-vdomestica,gritar,grita comigo,gritando
+o-que-vdomestica,morder,mordeu,mordida,mordido,mordendo
+o-que-vdomestica,chutar,chutou,chutado,chutada,chutando,me deu chutes,me deu um chute
+o-que-vdomestica,estapear,estapeado,estapeada,estapeando,estapeou,me deu um tapa,me deu tapas,me encheu de tapas
+o-que-vdomestica,socar,socou,socando,socado,socada,me deu socos,me deu um soco
+o-que-vdomestica,enforcar,enforcou,enforcada,enforcado,enforcando
+o-que-vdomestica,esganar,esganado,esganada,esganando,esganou
+o-que-vdomestica,chantagear,chantageando,chantageado,chantageada,me chantageou
+o-que-vdomestica,surrar,surrou,surraram,surrado,surrada,surrando
+o-que-vdomestica,ferir,feriu,feriram,ferido,ferida,ferindo
+o-que-vdomestica,espancar,espandado,espandaca,espancou,espancaram,espancando
+o-que-vdomestica,apanhar,apanhei,apanhou,apanharam,apanhando
+o-que-vdomestica,violar,violou,violada,violado,violaram,violando
+o-que-vdomestica,assediar,assediou,assediaram,assediado,assediada,assediando
+o-que-vdomestica,machucar,machucada,machucado,machucaram,machucou,machuquei,machucando
+o-que-vdomestica,bater,bateu,bateram,bati,batendo
+o-que-vdomestica,empurrar,empurram,empurrou,empurrado,empurrada,empurrando
+o-que-vdomestica,trancar,me trancou,trancada,trancado,me trancando
+o-que-vdomestica,molestar,me molestou,molestando,molestado,molestada
+o-que-vdomestica,perseguir,me seguir,me seguindo,me vigiando
+o-que-vdomestica,isolar,me isolando,me deixando isolada,me deixando isolado
+o-que-vdomestica,humilhar,humilhando,humilhado,humilhada,humilhou,humilharam
+o-que-vdomestica,agredir,agredida,agredido,agrediram,agrediu,agredindo
+o-que-vdomestica,chacoalhar,chacoalhou,chacoalharam,chacoalhada,chacoalhado,chacoalhando
+o-que-vdomestica,apertar,apertou,apertaram,apertada,apertado,apertando
+o-que-vdomestica,atacar,atacou,atacada,atacado,atacaram,atacando
+o-que-vdomestica,estuprar,estuprado,estuprada,estuprou,estuprando,estupraram
+o-que-vdomestica,ameaçar,ameaçada,ameaçado,ameaçou,ameaçaram,ameaçando
+o-que-vdomestica,intimidar,me intimidando,intimidada,intimidado,me intimidou
+o-que-vdomestica,privar,me privando,sendo privada,sendo privado
+o-que-vdomestica,controlar,me controlando,controlador,controladora,sendo controlado,sendo controlada
+o-que-vdomestica,berrar,berrando comigo,berrando
+o-que-vdomestica,insultar,me insultando,sendo insultada,sendo insultado,me insultou,me insulta
+quando-vdomestica,por muitos anos,por muito tempo,nem me lembro mais
+quando-vdomestica,uma vez,uma só
+quando-vdomestica,algumas vezes,mais de uma vez
+quando-vdomestica,várias vezes,muitas vezes
+quem-vdomestica,cuidador,cuidadora,cuidador(a)
+quem-vdomestica,tia,tio,tias,tios
+quem-vdomestica,mãe
+quem-vdomestica,pai
+quem-vdomestica,madrasta
+quem-vdomestica,padrastro
+quem-vdomestica,avô,avó
+quem-vdomestica,baba,cuidadora
+quem-vdomestica,neto,netos,neta,netas
+quem-vdomestica,esposo,esposa,marido,companheiro,companheira
+quem-vdomestica,filha,filho,filhas,filhos
+quem-vdomestica,namorada,namorado
+quem-vdomestica,ex,ex parceira,ex parceiro,Ex parceiro romântico,Ex parceira romântica,Ex parceiro(a) romântico(a)
+quem-vdomestica,parceiro,parceira
+quem-vdomestica,familiar,pessoa da familia
+quem-vdomestica,conjujê,conjuje
