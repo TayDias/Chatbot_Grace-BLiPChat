@@ -7,8 +7,9 @@ Documentação de sistema do chatbot desenvolvido.
 ## Sistema de diretórios
 
 * \blip
-  * \flow.json
-  * \reports
+  * \flow1.json
+  * \flow2.json
+  * \flow3.json
 * \watson
   * \entities
     * file.csv
@@ -27,12 +28,12 @@ Acesso ao Blip: https://portal.blip.ai/application
 ## Instruções
 
 * Criação dos três subbots e importação dos fluxos na pasta \blip
-* Configuração do roteador
+* Configuração do roteador no Blip
 * Configuração do Watson Assistant
-* Configuração do ambiente do builder
+* Configuração de ambiente do builder dos subbots
 
 
-## Configuração do roteador
+## Configuração do roteador do Blip
 
 Incluir os subbots de acordo com as nomenclaturas para "Serviço":
 
@@ -44,7 +45,7 @@ Incluir os subbots de acordo com as nomenclaturas para "Serviço":
 Criar modelo e importar entidades e intenções contidas na pasta /watson
 
 
-## Configuração do builder
+## Configuração de ambiente do builder dos subbots
 
 Habilitar o contexto de roteador e o traking em todos os subbots nas configurações gerais:
 
