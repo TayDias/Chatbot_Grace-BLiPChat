@@ -3,6 +3,8 @@ Documentação de sistema do chatbot desenvolvido.
 
 <img width="300" alt="Logo do bot" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/grace.jpg">
 
+Acesso ao Bot em produção: http://bot.pectem.com
+
 
 ## Sistema de diretórios
 
