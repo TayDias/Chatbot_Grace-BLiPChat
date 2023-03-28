@@ -1,65 +1,60 @@
-# GRACE
-Documentação de sistema do chatbot desenvolvido.
+<h1 align="center"> Grace Bot - V. 1.0</h1>
 
-<img width="300" alt="Logo do bot" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/grace.jpg">
+<img align="center" width="300" alt="Logo do bot" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/grace.jpg">
 
-Acesso ao Bot em produção: http://bot.pectem.com
+<p>O objetivo do chatbot desenvolvido é identificar pessoas em situações de violência doméstica através do uso de inteligência artificial e viabilizar o contato com atendimento especializado.</p>
 
-
-## Sistema de diretórios
-
-* \blip
-  * \flow1.json
-  * \flow2.json
-  * \flow3.json
-* \watson
-  * \entities
-    * file.csv
-  * \intents
-    * file.csv
-* \general
-  * \grace.jpg
-  * \configRouter.png
-  * \configcontextobots.png
-  * \configPrincipalAtendimento.png
+<p>Inicialmente o chatbot teve versões desenvolvidas em Python e também nas plataformas Pandorabots e Botpress. Contudo foi optado por concluir a versão usando o BLiP Chat e o IBM Watson em conjunto, devido a necessidade de agilidade na conclusão.</p>
 
 
-Acesso ao Blip: https://portal.blip.ai/application
+# Índice
+
+* [Status do projeto](#Status-do-projeto)
+* [Tecnologias utilizadas](#Tecnologias-utilizadas)
+* [Funcionalidades](#Funcionalidades)
+* [Execução da aplicação](#Execução-da-aplicação)
+* [Referencias](#Referencias)
 
 
-## Instruções
+# Status do projeto
 
-* Criação dos três subbots e importação dos fluxos na pasta \blip
-* Configuração do roteador no Blip
-* Configuração do Watson Assistant
-* Configuração de ambiente do builder dos subbots
+:heavy_check_mark: Finalizado - Versão 1.0 :heavy_check_mark:
 
 
-## Configuração do roteador do Blip
+# Tecnologias utilizadas
 
-Incluir os subbots de acordo com as nomenclaturas para "Serviço":
-
-<img width="1001" alt="Router" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configRouter.PNG">
-
-
-## Configuração do Watson Assistant
-
-Criar modelo e importar entidades e intenções contidas na pasta /watson
+- [Blip.ai](https://portal.blip.ai/application)
+- [IBMWatson](https://www.ibm.com/br-pt/watson)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
-## Configuração de ambiente do builder dos subbots
+# Funcionalidades
 
-Habilitar o contexto de roteador e o traking em todos os subbots nas configurações gerais:
+- [X] 01 - Manter uma conversa
+- [X] 02 - Finalizar conversa ao ser solicitado.
+- [X] 03 - Categorizar sentimentos relatados.
+- [X] 04 - Identificar relatos de violência doméstica.
+- [X] 05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica.
+- [X] 06 - Verificar disponibilidade de horários de atendimento da equipe especializada.
+- [X] 07 - Listagem de próximos horários de atendimento da equipe na conversa.
+- [X] 08 - Cadastro de usuários atendidos pelo chatbot.
+- [X] 09 - Solicitação de feedback ao encerramento da conversa.
 
-<img width="400" alt="Contexto" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configcontextobots.PNG">
 
+# Execução da aplicação
 
-Ainda nas configurações gerais, incluir as variáveis de configuração de conexão com o Watson:
+Para usar a versão de testes você vai precisar apenas acessar o [Website](https://bot.pectem.com) do projeto e clicar no ícone de conversa no canto inferior direito da página.
 
-urlWatson: valorDaURL,
-authorizationWatson: valorDaChave
+# Referencias
 
+Como escrever um README incrível no seu Github:
+https://www.alura.com.br/artigos/escrever-bom-readme
 
-Habilitar o Blip Desk no subbot Principal em Atendimento:
+Como fazer um bom README:
+https://blog.rocketseat.com.br/como-fazer-um-bom-readme/
 
-<img width="1001" alt="Contexto" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configPrincipalAtendimento.PNG">
+Emoji-cheat-sheet:
+https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md
+
+TCC - DESENVOLVIMENTO DE UM CHATBOT PARA APOIO A VÍTIMAS DE VIOLÊNCIA DOMÉSTICA:
+https://repositorio.animaeducacao.com.br/bitstream/ANIMA/23997/1/TCC-Final-Taynara-Dias.pdf
