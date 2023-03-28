@@ -58,7 +58,7 @@ Como a base de dados é pequena em função do pouco tempo disponível para dese
 
 # Configuração do ambiente de teste
 
-<p>Para montar um ambiente de testes você vai precisar acesar o portal do <link rel="stylesheet" href="https://portal.blip.ai/application">BLiP</link> e criar uma estrutura de roteador e sub-bots semelhante a mostrada na imagem abaixo.</p>
+<p>Para montar um ambiente de testes você vai precisar acesar o portal do <a rel="stylesheet" href="https://portal.blip.ai/application">BLiP</a> e criar uma estrutura de roteador e sub-bots semelhante a mostrada na imagem abaixo.</p>
 
 <img width="1001" alt="Router" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configRouter.PNG">
 
@@ -66,9 +66,9 @@ Como a base de dados é pequena em função do pouco tempo disponível para dese
 
 <p>Em cada sub-bot as opções "Traking automático" e "Utilizar contexto de Roteador" devem estar ativadas. Deve-se incluir também em "Variáveis de configuração" a url (urlWatson) e a chave de autorização (authorizationWatson) para conexão com o IBM Watson Assistant.</p>
 
-<p>Para criar uma estrutura similar a usada do Watson Assistant acesse o <link rel="stylesheet" href="https://cloud.ibm.com">IBM Cloud</link> e crie um novo serviço do Watson. Após isso, acesse esse serviço na "Lista de Recursos" e crie uma nova Skill do tipo diálogo. Importe as intenções, que estão na pasta "watson/intents", e as entidades da pasta "watson/entities". A url de acesso a essa skill por requisição pode ser consultada na opção "View API Details".</p>
+<p>Para criar uma estrutura similar a usada do Watson Assistant acesse o <a rel="stylesheet" href="https://cloud.ibm.com">IBM Cloud</a> e crie um novo serviço do Watson. Após isso, acesse esse serviço na "Lista de Recursos" e crie uma nova Skill do tipo diálogo. Importe as intenções, que estão na pasta "watson/intents", e as entidades da pasta "watson/entities". A url de acesso a essa skill por requisição pode ser consultada na opção "View API Details".</p>
 
-<p>Para mais informações sobre a API do Watson e obtenção da chave de autorização de uma skill consulte a documentação oficial <link rel="stylesheet" href="https://cloud.ibm.com/apidocs/assistant-v2">aqui</link>.</p>
+<p>Para mais informações sobre a API do Watson e obtenção da chave de autorização de uma skill consulte a documentação oficial <a rel="stylesheet" href="https://cloud.ibm.com/apidocs/assistant-v2">aqui</a>.</p>
 
 
 # Referencias
