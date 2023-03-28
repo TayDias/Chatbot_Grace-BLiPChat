@@ -13,6 +13,7 @@
 * [Tecnologias utilizadas](#Tecnologias-utilizadas)
 * [Funcionalidades](#Funcionalidades)
 * [Execução da aplicação](#Execução-da-aplicação)
+* [Configuração do ambiente de teste](#Configuração-do-ambiente-de-teste)
 * [Referencias](#Referencias)
 
 
@@ -44,6 +45,31 @@
 # Execução da aplicação
 
 Para usar a versão de testes você vai precisar apenas acessar o [Website](https://bot.pectem.com) do projeto e clicar no ícone de conversa no canto inferior direito da página.
+
+
+## Exemplos de frases para testar
+
+Como a base de dados é pequena em função do pouco tempo disponível para desenvolvê-la, aqui está alguns exemplos de frases que você pode testar e que o chatbot entenderá como indicativo de violência doméstica:
+
+* Meu marido começo a jogar as coisas em mim na cozinha depois de discutirmos, fiquei assustada
+* Ontem aconteceu de novo, meu namorado me humilhou na frente de todos porque estava com ciumes
+* Ela bateu forte no meu braço e ameaçou acabar com a minha vida, hoje esta agindo como se nada tivesse acontecido
+* Fui agredida por meu companheiro
+
+# Configuração do ambiente de teste
+
+<p>Para montar um ambiente de testes você vai precisar acesar o portal do [BLiP](https://portal.blip.ai/application) e criar uma estrutura de roteador e sub-bots semelhante a mostrada na imagem abaixo. </p>
+
+<img width="1001" alt="Router" src="https://github.com/TayDias/Chatbot-Grace---BLiP-Chat/blob/79d7ec9703362ff72fe0f8e77a4be3394c3dc465/general/configRouter.PNG">
+
+<p>Para o sub-bot "Grace Conectar" o flow importado no builder deve ser o arquivo "chatbotvicauth.json". Para o sub-bot "Grace Dialogo" deve ser carregado o arquivo "gracedialogoprd.json" e para o sub-bot "Grace Principal" deve ser usado o arquivo "chatbotcyberbulleviolencia.json".</p>
+
+<p>Em cada sub-bot as opções "Traking automático" e "Utilizar contexto de Roteador" devem estar ativadas. Deve-se incluir também em "Variáveis de configuração" a url (urlWatson) e a chave de autorização (authorizationWatson) para conexão com o IBM Watson Assistant.</p>
+
+<p>Para criar uma estrutura similar a usada do Watson Assistant acesse o [IBM Cloud](https://cloud.ibm.com) e crie um novo serviço do Watson. Após isso, acesse esse serviço na "Lista de Recursos" e crie uma nova Skill do tipo diálogo. Importe as intenções, que estão na pasta "watson/intents", e as entidades da pasta "watson/entities". A url de acesso a essa skill por requisição pode ser consultada na opção "View API Details".</p>
+
+<p>Para mais informações sobre a API do Watson e obtenção da chave de autorização de uma skill consulte a documentação oficial [aqui](https://cloud.ibm.com/apidocs/assistant-v2).</p>
+
 
 # Referencias
 
