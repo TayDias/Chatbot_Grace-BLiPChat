@@ -44,7 +44,7 @@
 
 # Execução da aplicação
 
-Para usar a versão de testes você vai precisar apenas acessar o [Website](https://bot.pectem.com) do projeto e clicar no ícone de conversa no canto inferior direito da página.
+Para usar a versão de produção você vai precisar apenas acessar o [Website](https://bot.pectem.com) do projeto e clicar no ícone de conversa no canto inferior direito da página.
 
 
 ## Exemplos de frases para testar
