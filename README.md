@@ -46,6 +46,8 @@
 
 Para usar a versão de produção você vai precisar apenas acessar o [Website](https://bot.pectem.com) do projeto e clicar no ícone de conversa no canto inferior direito da página.
 
+Aviso: As demais funcionalidades do website estão temporariamente indisponíveis devido a plataforma hospedeira do backend ter bloqueado as ferramentas hospedadas gratuitamente.
+
 
 ## Exemplos de frases para testar
 
