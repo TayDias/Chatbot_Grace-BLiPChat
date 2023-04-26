@@ -12,6 +12,7 @@
 * [Status do projeto](#Status-do-projeto)
 * [Tecnologias utilizadas](#Tecnologias-utilizadas)
 * [Funcionalidades](#Funcionalidades)
+* [Modelo de PLN/NLP](#modelo-de-plnnlp)
 * [Execução da aplicação](#Execução-da-aplicação)
 * [Configuração do ambiente de teste](#Configuração-do-ambiente-de-teste)
 * [Referencias](#Referencias)
@@ -40,6 +41,85 @@
 - [X] 07 - Listagem de próximos horários de atendimento da equipe na conversa.
 - [X] 08 - Cadastro de usuários atendidos pelo chatbot.
 - [X] 09 - Solicitação de feedback ao encerramento da conversa.
+
+
+# Modelo de PLN/NLP
+
+<p>A interpretação de decisões de usuário e a contextualização de sua situação física e emocional é feita com o processamento de linguagem natural (PLN) do IBM Watson a partir de um modelo de intenções e entidades personalizado. A taxa de confiabilidade deve ser igual ou superior a 75%.</p>
+
+## Intenções
+
+<table>
+  <thead>
+    <th>Nome da intenção</th>
+    <th>Funcionalidade associada</th>
+  </thead>
+  <body>
+    <tr>
+      <td>ajuda-especialista</td>
+      <td>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+    <tr>
+      <td>concordar</td>
+      <td>01 - Manter uma conversa</td>
+    </tr>
+    <tr>
+      <td>desabafo</td>
+      <td>01 - Manter uma conversa<br/>03 - Categorizar sentimentos relatados<br>04 - Identificar relatos de violência doméstica</td>
+    </tr>
+    <tr>
+      <td>despedida</td>
+      <td>02 - Finalizar conversa ao ser solicitado<br>09 - Solicitação de feedback ao encerramento da conversa.</td>
+    </tr>
+    <tr>
+      <td>incerto</td>
+      <td>01 - Manter uma conversa</td>
+    </tr>
+    <tr>
+      <td>negar</td>
+      <td>01 - Manter uma conversa</td>
+    </tr>
+  </body>
+</table>
+
+# Entidades
+
+<table>
+  <thead>
+    <th>Nome da entidade</th>
+    <th>Funcionalidade associada</th>
+  </thead>
+  <body>
+    <tr>
+      <td>o-que-vdomestica</td>
+      <td>04 - Identificar relatos de violência doméstica<br>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+    <tr>
+      <td>quem-vdomestica</td>
+      <td>04 - Identificar relatos de violência doméstica<br>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+    <tr>
+      <td>onde-vdomestica</td>
+      <td>04 - Identificar relatos de violência doméstica<br>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+    <tr>
+      <td>quando-vdomestica</td>
+      <td>04 - Identificar relatos de violência doméstica<br>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+    <tr>
+      <td>emocao-positiva</td>
+      <td>03 - Categorizar sentimentos relatados</td>
+    </tr>
+    <tr>
+      <td>emocao-negativa</td>
+      <td>03 - Categorizar sentimentos relatados</td>
+    </tr>
+    <tr>
+      <td>emocao-indicadora</td>
+      <td>03 - Categorizar sentimentos relatados<br>05 - Direcionar a conversa ao atendimento humano quando identificar violência doméstica</td>
+    </tr>
+  </body>
+</table>
 
 
 # Execução da aplicação
